@@ -1,0 +1,106 @@
+body{
+    background-image:url(bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.courses{
+    
+    
+  
+    
+}
+.courses-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    gap: 2 rem;
+    align-items: center;
+    margin-top: 4rem;
+    cursor: pointer;
+    border-radius: 15px;
+    justify-content: space-around;
+   
+    
+
+    
+}
+.courses1{
+    
+    padding: 0px 0px 10px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 40px  rgb(174, 186, 191);
+    transition: all .40s ease;
+    margin-bottom: 40px;
+    height: 400px;
+    width: 300px;
+}
+.courses1:hover{
+    transform: translateY(-15px);
+}
+
+.courses1 img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    
+    
+}
+.courses-text{
+    padding: 35px 20px;
+
+}
+.courses-text h3{
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: 700;
+}
+.courses-text h5{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 5px 0 5px;
+    transition: all .40s ease;
+
+}
+.courses-text h5:hover{
+    color: var(--main-color);
+
+}
+.center-text h2{
+     font-size: 35px;
+}
+
+.center-text h5{
+    font-size: 15px;
+}
+.main-btn{
+    text-align: center;
+    margin-top: 2rem;
+    
+    
+    
+}
+.main-btn a{
+    font-style: none;
+}
+.btn{
+    display: inline-block;
+    padding: 16px 30px;
+    font-size: var(--p-font);
+    font-weight: 700;
+    background:rgb(75, 155, 240);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: all .40s ease;
+    margin-bottom: 20px;
+    
+}
+.btn:hover{
+    transform: scale(0.9) translateY(-5px);
+    background-color: #035486;
+}
+
+
+
